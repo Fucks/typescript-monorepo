@@ -8,11 +8,12 @@
     "echo": "echo \"www\" && exit 0",
     "build": "parcel build src/index.tsx - --no-source-maps --out-file main.min.js",
     "serve": "parcel index.html --no-cache",
-    "watch": "parcel watch src/index.tsx --out-file main"
+    "watch": "react-app-rewired start"
   },
   "dependencies": {
-    "@gencebay/react-ui": "1.0.0-rc.1",
     "@gencebay/contracts": "1.0.0-rc.1",
+    "@gencebay/react-ui": "1.0.0-rc.1",
+    "customize-cra": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "~16.13.1",
     "react-hot-loader": "^4.12.20"

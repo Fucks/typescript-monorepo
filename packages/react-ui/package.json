@@ -13,9 +13,10 @@
     "build": "parcel build src/index.ts - --no-source-maps --out-file react-ui.min.js"
   },
   "dependencies": {
-    "@gencebay/utils": "1.0.0-rc.1",
     "@gencebay/contracts": "1.0.0-rc.1",
+    "@gencebay/utils": "1.0.0-rc.1",
     "classnames": "^2.2.6",
+    "customize-cra": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.20"

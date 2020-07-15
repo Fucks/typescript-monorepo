@@ -17,5 +17,8 @@
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.20",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "customize-cra": "^1.0.0"
   }
 }
